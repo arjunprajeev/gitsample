@@ -1,7 +1,32 @@
 things to do first when doing a project
+
 PS D:\gitsample> git config user.name
 Arjun
+
 PS D:\gitsample> git config user.email
 arjunprajeev10@gmail.com
+
 PS D:\gitsample> git init
 Initialized empty Git repository in D:/gitsample/.git/
+
+PS D:\gitsample> git add .
+
+PS D:\gitsample> git commit -m "Project setup"
+
+PS D:\gitsample> git branch
+* master
+
+PS D:\gitsample> git switch -c Project-setup
+Switched to a new branch 'Project-setup'
+
+PS D:\gitsample> git branch
+* Project-setup
+  master
+
+PS D:\gitsample> git remote add origin https://github.com/arjunprajeev/gitsample.git
+
+PS D:\gitsample> git remote -v          "should show thw link, then it is connected"
+origin  https://github.com/arjunprajeev/gitsample.git (fetch)
+origin  https://github.com/arjunprajeev/gitsample.git (push)
+
+PS D:\gitsample> git push -u origin Project-setup
