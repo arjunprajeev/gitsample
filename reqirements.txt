@@ -32,4 +32,14 @@ origin  https://github.com/arjunprajeev/gitsample.git (push)
 PS D:\gitsample> git push -u origin Project-setup
 
 
-pushint to new branch 
+====================================================
+pushing to new branch 
+
+
+PS D:\gitsample> git add .
+PS D:\gitsample> git commit -m "adding to new branch"
+
+PS D:\gitsample> git switch -c initial-execution
+Switched to a new branch 'initial-execution'
+
+PS D:\gitsample> git push -u origin initial-execution
