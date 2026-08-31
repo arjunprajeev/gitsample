@@ -1,0 +1,7 @@
+things to do first when doing a project
+PS D:\gitsample> git config user.name
+Arjun
+PS D:\gitsample> git config user.email
+arjunprajeev10@gmail.com
+PS D:\gitsample> git init
+Initialized empty Git repository in D:/gitsample/.git/
