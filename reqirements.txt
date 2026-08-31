@@ -30,3 +30,6 @@ origin  https://github.com/arjunprajeev/gitsample.git (fetch)
 origin  https://github.com/arjunprajeev/gitsample.git (push)
 
 PS D:\gitsample> git push -u origin Project-setup
+
+
+pushint to new branch 
