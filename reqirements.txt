@@ -43,3 +43,12 @@ PS D:\gitsample> git switch -c initial-execution
 Switched to a new branch 'initial-execution'
 
 PS D:\gitsample> git push -u origin initial-execution
+
+================================
+undo in git
+1. modified file but not staged : git restore <filemname>
+                                  git restore .  (all files)
+                                  PS D:\gitsample> git restore db.py
+                      
+2. modifed and staged : git restore --staged <filemname>
+                                  git restore --staged .  (all files)                     
