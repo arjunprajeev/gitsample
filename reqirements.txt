@@ -51,4 +51,20 @@ undo in git
                                   PS D:\gitsample> git restore db.py
                       
 2. modifed and staged : git restore --staged <filemname>
-                                  git restore --staged .  (all files)                     
+                                  git restore --staged .  (all files)       
+
+3.  PS D:\gitsample> git restore --staged db.py
+    PS D:\gitsample> git restore db.py
+              
+git log --oneline
+f9a391e (HEAD -> new-branch) added undo commands
+94a14ec (origin/new-branch) branch added
+9082fb1 (origin/initial-execution, initial-execution) datas added to new branch
+f6f59d9 (Project-setup) adding to new branch
+47ebfc3 (origin/Project-setup) created new branch
+03cfda1 (master) Project setup
+
+
+undo commit : git reset --soft HEAD~1     (removes only commit staged stamts will be remained)
+
+undo commit and delete staged : git reset HEAD~1
