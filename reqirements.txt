@@ -70,3 +70,6 @@ undo commit : git reset --soft HEAD~1     (removes only commit staged stmts will
 undo commit and delete staged : git reset HEAD~1
 
 undo commit and delete all changes : git reset --hard HEAD~1
+
+
+Deleting old commits : git rebase -i HEAD~<number>
