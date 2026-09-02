@@ -73,3 +73,8 @@ undo commit and delete all changes : git reset --hard HEAD~1
 
 
 Deleting old commits : git rebase -i HEAD~<number>
+
+after terminal open
+i >>> insert
+esc
+:wq >>enter
