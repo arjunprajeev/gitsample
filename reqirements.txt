@@ -65,6 +65,8 @@ f6f59d9 (Project-setup) adding to new branch
 03cfda1 (master) Project setup
 
 
-undo commit : git reset --soft HEAD~1     (removes only commit staged stamts will be remained)
+undo commit : git reset --soft HEAD~1     (removes only commit staged stmts will be remained)
 
 undo commit and delete staged : git reset HEAD~1
+
+undo commit and delete all changes : git reset --hard HEAD~1
