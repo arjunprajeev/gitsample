@@ -7,3 +7,7 @@ print("sample commit 3 added")
 
 
 print("hi")
+
+print("hello")
+
+print("commit 6 added")
