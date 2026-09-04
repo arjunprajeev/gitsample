@@ -32,7 +32,8 @@ origin  https://github.com/arjunprajeev/gitsample.git (push)
 PS D:\gitsample> git push -u origin Project-setup
 
 
-====================================================
+========================================================================================================
+
 pushing to new branch 
 
 
@@ -84,3 +85,19 @@ then open the file if there is any conflict, then make necessary changes(accept,
 git add .
 git rebase --continue
 
+
+============================================
+deleting commits from github
+
+revert : undo only the changes not the history in the github
+
+command: git revert HEAD
+         <close the window by typing ":wq">
+         git push
+
+deleting history also
+
+reset:
+
+git reset --hard HEAD~1
+git push --force-with-lease
