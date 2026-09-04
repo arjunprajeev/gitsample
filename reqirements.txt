@@ -78,3 +78,9 @@ after terminal open
 i >>> insert
 esc
 :wq >>enter
+
+
+then open the file if there is any conflict, then make necessary changes(accept,incoming..etc) and save
+git add .
+git rebase --continue
+
