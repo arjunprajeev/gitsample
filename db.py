@@ -11,3 +11,5 @@ print("hi")
 print("hello")
 
 print("commit 6 added")
+
+print("commit 7")
